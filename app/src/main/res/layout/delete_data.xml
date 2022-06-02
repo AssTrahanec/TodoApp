@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Delete your task"
+        android:gravity="center"
+        android:background="@drawable/background_design"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+            <Button
+                android:id="@+id/btnDeleteTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:background="@drawable/background_design"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/btnNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/background_design"
+                android:text="No"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
